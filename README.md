@@ -10,7 +10,7 @@ A website that allows users to organize and connect.
 
 ### Backend Repository
 
-- [Backend Server Repo](https://github.com/Zwicky00/fritachi)
+- [Fritachi](https://github.com/Zwicky00/fritachi)
 
 ### Prerequisites
 
