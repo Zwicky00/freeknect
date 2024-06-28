@@ -1,26 +1,27 @@
 #secondBlock {
-    background-color: var(--primary-color);
+  background-color: var(--primary-color);
 }
 .logo {
-    height: 30vh;
-    width: 50vh;
+  height: 30vh;
+  width: 50vh;
 }
-.container-fluid {
-    display: flex;
-    height: 100vh; 
-    font-size: large;
+.login-content {
+  display: flex;
+  height: 100vh;
+  font-size: large;
 }
-#firstBlock, #secondBlock {
-    flex: 1;
-    display: flex; 
-    justify-content: center; 
-    align-items: center;  
+#firstBlock,
+#secondBlock {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #text-image {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 #text-image img {
-    height: 2em; 
-    margin-right: 0.3em; 
+  height: 2em;
+  margin-right: 0.3em;
 }
