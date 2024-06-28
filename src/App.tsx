@@ -3,8 +3,9 @@ import "./App.css";
 import { userDataType } from "./types/user";
 import Login from "./components/Login/Login";
 import Content from "./components/Content";
-import { SERVER_ENDPOINT } from "./constatnts";
 import axios from "axios";
+
+const SERVER_ENDPOINT = process.env.SERVER_ENDPOINT;
 
 const initialState: userDataType = {
   name: "",
