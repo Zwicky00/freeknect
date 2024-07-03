@@ -35,8 +35,9 @@ And start the server
 
 Set Environment Variables by creating .env file in the root directory of the repository and fill
 
-    REACT_APP_GOOGLE_CLIENT_ID = client id of the server
-    SERVER_ENDPOINT = URL of the server
+    REACT_APP_GOOGLE_CLIENT_ID = <client Id Of The Server>
+    REACT_APP_SERVER_ENDPOINT = <URL Of The Server>
+    REACT_APP_OAUTH_REDIRECT_URL = <User Authentication Redirect URL>
 
 ## Authors
 

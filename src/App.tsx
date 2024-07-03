@@ -4,10 +4,10 @@ import { userDataType } from "./types/user";
 import Login from "./components/Login/Login";
 import Content from "./components/Content";
 import axios from "axios";
-
-const SERVER_ENDPOINT = process.env.SERVER_ENDPOINT;
+import { SERVER_ENDPOINT } from "./Config";
 
 const initialState: userDataType = {
+  _id: "",
   name: "",
   email: "",
   picture: "",
@@ -17,6 +17,7 @@ function App() {
 
   const updateUserState = (data: Record<string, string>) => {
     setUser({
+      _id: data._id,
       name: data.name,
       email: data.email,
       picture: data.picture,

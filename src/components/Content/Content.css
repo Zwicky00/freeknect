@@ -5,7 +5,7 @@
   font-size: large;
 }
 #navBar {
-  padding: 0%;
+  padding: 0 20px 0 0;
   overflow: hidden;
   transition: all 1s ease;
   margin: 0%;
@@ -15,17 +15,21 @@
   width: 100%;
 }
 #navBar .btn {
-  margin-top: 10px;
+  border-radius: 30px;
+  margin: 10px;
+  padding: 10px;
   display: flex;
   align-content: flex-start;
-  height: 3em;
-  width: 100%;
+  width: 90%;
 }
-.material-symbols-outlined {
-  margin: 0 10px 0 10px;
+.compressed .material-symbols-outlined {
+  margin-left: 5px;
+}
+.expanded .material-symbols-outlined {
+  margin: 0 10px 0 5px;
 }
 .compressed.btn {
-  width: 80px;
+  width: 90px;
 }
 .expanded.btn {
   width: 200px;
