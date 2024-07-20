@@ -1,6 +1,8 @@
 :root {
-  --primary-color: #8aaae5;
-  --secondary-color: #ffffff;
+  --primary-color: #337bc9;
+  --secondary-color: #67c6e3;
+  --tertiary-color: #dff5ff;
+  --fourth-color: #b4e1f6;
 }
 
 body {
@@ -18,7 +20,7 @@ code {
 }
 
 .material-symbols-outlined {
-  color: var(--primary-color);
+  color: var(--tertiary-color);
   font-variation-settings:
     "FILL" 0,
     "wght" 2e,

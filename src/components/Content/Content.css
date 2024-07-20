@@ -1,26 +1,35 @@
 .content {
-  background-color: var(--seconday-color);
   display: flex;
   height: 100vh;
   font-size: large;
 }
 #navBar {
-  padding: 0 20px 0 0;
+  position: absolute;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+  background-color: var(--primary-color);
   overflow: hidden;
   transition: all 1s ease;
-  margin: 0%;
 }
-#content {
-  background-color: var(--primary-color);
+#navbarLogo {
+  height: 1em;
+  border-radius: 100%;
+}
+#actualContent {
+  background-color: var(--secondary-color);
   width: 100%;
+  padding: 0 0 0 100px;
 }
 #navBar .btn {
-  border-radius: 30px;
+  color: var(--tertiary-color);
   margin: 10px;
   padding: 10px;
   display: flex;
   align-content: flex-start;
   width: 90%;
+}
+.text {
+  position: relative;
 }
 .compressed .material-symbols-outlined {
   margin-left: 5px;
